@@ -27,22 +27,18 @@
                         <label for="">Preço</label>
                         <input type="text" id="pd-preco" placeholder="R$ 00.00">
                     </div>
-                    <button>Adicionar</button>
-                    <button>Cancelar</button>
+                    <button onclick="produto.Adicionar()">Adicionar</button>
+                    <button onclick="produto.Cancelar()">Cancelar</button>
                 </div>
                 <div class="conteudo">
                     <table border="1">
                         <thead>
-                            <th>ID</th>
-                            <th>Produto</th>
-                            <th>Preço</th>
-                            <th>Remover</th>
+                            <th id="th-id">ID</th>
+                            <th id="th-produto">Produto</th>
+                            <th id="th-preco">Preço</th>
+                            <th id="th-remover">Remover</th>
                         </thead>
-                        <tbody>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                        <tbody id="tbody">
                         </tbody>
                     </table>
                 </div>
@@ -50,5 +46,6 @@
         </section>
     </main>
     
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -55,8 +55,8 @@ button {
 
 table {
     border-collapse: collapse;
-    width: 100%;
     border: #ccc;
+    width: 100%;
 }
 
 table th {
@@ -67,4 +67,17 @@ table th {
 
 table td {
     padding: 1px;
+}
+
+table td img {
+    width: 20px;
+    margin-left: 40px;
+}
+
+#th-id {
+    width: 50px;
+}
+
+#th-remover {
+    width: 100px;
 }
